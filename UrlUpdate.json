@@ -1,8 +1,8 @@
 {
   "Version": "1.0.2",
   "ReleaseNotes": "UPDATE 1.0.2",
-  "UrlUpdate": "https://www.atlantus4g.ml/UrlUpdate",
-  "Sms": "https://www.atlantus4g.ml/UrlSms",
+  "UrlUpdate": "https://www.atlantus4g.ml/UrlUpdate.json",
+  "Sms": "https://www.atlantus4g.ml/UrlSms.json",
   "EmailFeedback": "atlantus4g@gmail.com",
   "UrlContato": "https://t.me/kiritosshxd",
   "UrlTermos": "https://www.atlantus4g.ml/termos.html",
