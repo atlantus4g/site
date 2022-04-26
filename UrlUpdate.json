@@ -1,0 +1,70 @@
+{
+  "Version": "1.0.2",
+  "ReleaseNotes": "UPDATE 1.0.2",
+  "UrlUpdate": "https://www.atlantus4g.ml/UrlUpdate",
+  "Sms": "https://www.atlantus4g.ml/UrlSms",
+  "EmailFeedback": "atlantus4g@gmail.com",
+  "UrlContato": "https://t.me/kiritosshxd",
+  "UrlTermos": "https://www.atlantus4g.ml/termos.html",
+  "Udp": [
+    {
+      "Porta": "7300"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "VPSBR001",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "br.atlantus4g.ml",
+      "CheckUser": "http://br.atlantus4g.ml:8888/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "VPSCA001",
+      "TYPE": "premium",
+      "FLAG": "ca.png",
+      "ServerIP": "ca.atlantus4g.ml",
+      "CheckUser": "http://ca.atlantus4g.ml:8888/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "VIVO",
+      "FLAG": "vivo",
+      "Payload": "GET / [protocol]\r\nHost:[app_host]\r\nUpgrade: websocket\r\n\r\n",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "vivo360.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "TIM",
+      "FLAG": "tim",
+      "Payload": "GET wss://cdnjs.cloudflare.com [protocol]\nHost: [app_host]\nConnection: upgrade\r\nupgrade: ws\r\n\r\n",
+      "SNI": "cdnjs.cloudflare.com",
+      "TlsIP": "104.16.19.94",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO",
+      "FLAG": "claro",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol]\nHost: [app_host]\nConnection: upgrade\r\nupgrade: ws\r\n\r\n",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    }
+  ]
+}
